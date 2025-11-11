@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.png" />
+    <title>App</title>
+
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <script type="module" src="/scripts/index.js"></script>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#8feeff">
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+      <div class="main-header container">
+        <a class="brand-name">
+          <img src="./public/favicon.png" alt="Story App Logo" class="brand-logo" />
+          Story Map
+        </a>
+
+        <nav id="navigation-drawer" class="navigation-drawer">
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#/">Beranda</a></li>
+            <li><a href="#/add">Tambah Story</a></li>
+            <li><a href="#" id="logout-link">Logout</a></li>
+          </ul>
+        </nav>
+
+        <button id="drawer-button" class="drawer-button">☰</button>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-content"></main>
+
+    <button id="test-notification">🔔 Uji Notifikasi</button>
+
+    <!-- Tombol Install PWA -->
+    <button id="install-button" style="display:none; position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #4a90e2; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Install App
+    </button>
+
+    <!-- TEST ICON -->
+    <img src="/icons/192x192.png" alt="Test Icon" style="width:100px;height:100px;">
+
+    <footer>
+      <div class="container footer-content">
+        <p>© 2025 StoryMap by Tabita Ayutari Wata</p>
+      </div>
+    </footer>
+  </body>
+</html>

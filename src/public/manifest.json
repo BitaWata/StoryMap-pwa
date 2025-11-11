@@ -1,0 +1,21 @@
+{
+  "name": "Story Map",
+  "short_name": "StoryMap",
+  "description": "Aplikasi Galeri Story dengan fitur PWA dan push notification",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8feeff",
+  "icons": [
+    {
+      "src": "icons/72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
